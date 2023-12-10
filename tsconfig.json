@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "noImplicitThis": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "isolatedModules": true,
+        "target": "esnext",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "allowJs": true,
+        "jsx": "preserve",
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "noEmit": true,
+        "allowImportingTsExtensions": true,
+        "outDir": "./out/"
+    },
+    "vueCompilerOptions": {
+        "target": 2.7
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.svg",
+        "src/**/*.png",
+        "src/**/*.jpg",
+        "src/**/*.vue",
+        "src/js/typings"
+    ],
+    "exclude": ["node_modules"]
+}

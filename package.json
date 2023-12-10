@@ -1,0 +1,18 @@
+{
+  "name": "tibia-tools",
+  "main": "index.html",
+  "scripts": {
+    "watch": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^2.3.1",
+    "postcss": "^8.4.32",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.7"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.6",
+    "vue": "2.7.14"
+  }
+}
